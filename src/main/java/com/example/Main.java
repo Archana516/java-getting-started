@@ -63,7 +63,7 @@ public class Main {
 	  
 	  Sample sample = new Sample();
 	  
-	  sample.setcalls(counter++);
+	  sample.setCalls(counter++);
 	  
 	  sample.setTimestamp(new Date());
 	  
