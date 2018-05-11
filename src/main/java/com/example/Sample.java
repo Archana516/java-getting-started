@@ -1,7 +1,4 @@
-/**
- * 
- */
-package com.example;
+
 
 import java.util.Date;
 
@@ -11,32 +8,22 @@ import java.util.Date;
  */
 public class Sample {
 	
-	private int counter;
-	private Date currentdate;
+	private int calls;
+	private Date timestamp;
 	
-	/**
-	 * @return the counter
-	 */
-	public int getCounter() {
-		return counter;
+	public int getCalls() {
+		return calls;
 	}
-	/**
-	 * @param counter the counter to set
-	 */
-	public void setCounter(int counter) {
-		this.counter = counter;
+	public void setCalls(int calls) {
+		this.calls = calls;
 	}
-	/**
-	 * @return the currentdate
-	 */
-	public Date getCurrentdate() {
-		return currentdate;
+	public Date getTimestamp() {
+		return timestamp;
 	}
-	/**
-	 * @param currentdate the currentdate to set
-	 */
-	public void setCurrentdate(Date currentdate) {
-		this.currentdate = currentdate;
+	public void setTimestamp(Date timestamp) {
+		this.timestamp = timestamp;
 	}
+	
+	
 
 }

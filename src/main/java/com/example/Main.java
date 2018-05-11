@@ -63,9 +63,9 @@ public class Main {
 	  
 	  Sample sample = new Sample();
 	  
-	  sample.setCounter(counter++);
+	  sample.setcalls(counter++);
 	  
-	  sample.setCurrentdate(new Date());
+	  sample.setTimestamp(new Date());
 	  
 	  
 	  return new ResponseEntity<>(sample, HttpStatus.OK);
